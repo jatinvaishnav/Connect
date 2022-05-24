@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:paddingBottom="10dp"
+    android:columnCount="3"
+    android:rowCount="1"
+    android:background="@color/transparent">
+
+        <TextView
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:text = "CMRU CO"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:layout_marginTop="5dp"
+            android:letterSpacing=".25"
+            android:textSize = "14sp"
+            android:textColor = "#555555"
+            android:textStyle = "bold"
+            app:fontFamily = "@font/leaguespartan_medium" />
+        <TextView
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:text = "NN"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:layout_marginTop="5dp"
+            android:letterSpacing=".25"
+            android:textSize = "14sp"
+            android:textColor = "@color/white"
+            android:textStyle = "bold"
+            app:fontFamily = "@font/leaguespartan_medium" />
+        <TextView
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:text = "ECT"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:layout_marginTop="5dp"
+            android:letterSpacing=".25"
+            android:textSize = "14sp"
+            android:textColor = "#555555"
+            android:textStyle = "bold"
+            app:fontFamily = "@font/leaguespartan_medium" />
+
+</GridLayout>

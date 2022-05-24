@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_nam"
+    app:startDestination="@id/home_frag">
+
+    <fragment
+        android:id="@+id/home_frag"
+        android:name="com.cmrgroup.connect.home_frag"
+        android:label="fragment_home_frag"
+        tools:layout="@layout/fragment_home_frag" />
+    <fragment
+        android:id="@+id/messaging_nav"
+        android:name="com.cmrgroup.connect.messaging_nav"
+        android:label="fragment_messaging_nav"
+        tools:layout="@layout/fragment_messaging_nav" />
+    <fragment
+        android:id="@+id/announcements_frag"
+        android:name="com.cmrgroup.connect.announcements_frag"
+        android:label="fragment_announcements_frag"
+        tools:layout="@layout/fragment_announcements_frag" />
+    <fragment
+        android:id="@+id/explore_frag"
+        android:name="com.cmrgroup.connect.explore_frag"
+        android:label="fragment_explore_frag"
+        tools:layout="@layout/fragment_explore_frag" />
+</navigation>

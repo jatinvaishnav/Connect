@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1010645965199",
+    "project_id": "cmru-connect",
+    "storage_bucket": "cmru-connect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010645965199:android:7d1cb78fb7c20eb46ed3fa",
+        "android_client_info": {
+          "package_name": "com.cmrgroup.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010645965199-85ar8ahbr8168ingm81slbnfvsol0jnu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCabvk3jO8iDbAS8zxPTUBkTaiPcv1HEsg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010645965199-85ar8ahbr8168ingm81slbnfvsol0jnu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010645965199:android:06e6bfde3e1e3e4b6ed3fa",
+        "android_client_info": {
+          "package_name": "com.cmrgroup.connect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010645965199-85ar8ahbr8168ingm81slbnfvsol0jnu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCabvk3jO8iDbAS8zxPTUBkTaiPcv1HEsg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010645965199-85ar8ahbr8168ingm81slbnfvsol0jnu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

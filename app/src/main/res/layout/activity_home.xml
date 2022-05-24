@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="#f5f6fa">
+
+    <FrameLayout
+        android:id="@+id/home_frames"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f5f6fa">
+
+    </FrameLayout>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/home_bottom_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@drawable/back_bottom_nav_menu"
+        android:padding="0dp"
+        app:fabCradleMargin="0dp"
+        app:fabCradleRoundedCornerRadius="0dp"
+        tools:ignore="BottomAppBar">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/home_bottom_navigation_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginEnd="16dp"
+            android:background="@color/transparent"
+            app:itemIconSize="30dp"
+            app:itemIconTint="@color/custom_bottom_nav_manu_icon_color"
+            app:itemTextColor="@color/custom_bottom_nav_manu_icon_color"
+            app:labelVisibilityMode="unlabeled"
+            app:menu="@menu/home_bottom_nav_menu" />
+
+
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+<!--    <eightbitlab.com.blurview.BlurView-->
+<!--        android:id="@+id/home_back_blurView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="@drawable/frame_background_white"-->
+<!--        android:visibility="invisible"-->
+<!--        />-->
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/home_floating_menu_main"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/home_bottom_app_bar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-20dp"
+        android:contentDescription="Floating_button"
+        android:scaleType="center"
+        android:src="@drawable/logo"
+        app:backgroundTint="@color/cmr_green"
+        app:borderWidth="0dp"
+        app:fabCustomSize="80dp"
+        app:layout_anchor="@id/home_bottom_app_bar"
+        app:maxImageSize="60dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/home_floating_menu_1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/home_floating_menu_main"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toStartOf="@+id/home_floating_menu_main"
+        android:contentDescription="Floating_button"
+        android:scaleType="center"
+        android:src="@drawable/ic_settings"
+        android:visibility="invisible"
+        app:backgroundTint="@color/cmr_green"
+        app:borderWidth="0dp"
+        app:fabCustomSize="60dp"
+        app:layout_anchor="@id/home_bottom_app_bar"
+        app:maxImageSize="40dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/home_floating_menu_2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/home_floating_menu_main"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toStartOf="@+id/home_floating_menu_main"
+        android:contentDescription="Floating_button"
+        android:scaleType="center"
+        android:src="@drawable/ic_request"
+        app:backgroundTint="@color/cmr_green"
+        app:borderWidth="0dp"
+        app:fabCustomSize="60dp"
+        app:layout_anchor="@id/home_bottom_app_bar"
+        app:maxImageSize="40dp"
+        android:visibility="invisible"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/home_floating_menu_3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/home_floating_menu_main"
+        android:layout_alignStart="@+id/home_floating_menu_main"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="40dp"
+        android:contentDescription="Floating_button"
+        android:scaleType="center"
+        android:src="@drawable/ic_user"
+        android:visibility="invisible"
+        app:backgroundTint="@color/cmr_green"
+        app:borderWidth="0dp"
+        app:fabCustomSize="60dp"
+        app:layout_anchor="@id/home_bottom_app_bar"
+        app:maxImageSize="60dp" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/home_floating_menu_4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/home_floating_menu_main"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toEndOf="@+id/home_floating_menu_main"
+        android:contentDescription="Floating_button"
+        android:scaleType="center"
+        android:src="@drawable/ic_discussion"
+        android:visibility="invisible"
+        app:backgroundTint="@color/cmr_green"
+        app:borderWidth="0dp"
+        app:fabCustomSize="60dp"
+        app:layout_anchor="@id/home_bottom_app_bar"
+        app:maxImageSize="40dp" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/home_floating_menu_5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/home_floating_menu_main"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toEndOf="@+id/home_floating_menu_main"
+        android:contentDescription="Floating_button"
+        android:scaleType="center"
+        android:src="@drawable/ic_activity"
+        android:visibility="invisible"
+        app:backgroundTint="@color/cmr_green"
+        app:borderWidth="0dp"
+        app:fabCustomSize="60dp"
+        app:layout_anchor="@id/home_bottom_app_bar"
+        app:maxImageSize="40dp" />
+
+<!--    <fragment-->
+<!--        android:id="@+id/fragments_main_home"-->
+<!--        android:name="androidx.navigation.fragment.NavHostFragment"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        app:defaultNavHost="true"-->
+<!--        app:navGraph="@navigation/home_nam" />-->
+
+    <!--    <de.hdodenhof.circleimageview.CircleImageView-->
+<!--        android:id="@+id/home_floating_menu_5"-->
+<!--        android:layout_width="60dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_alignBottom="@+id/home_floating_menu_main"-->
+<!--        android:layout_marginStart="40dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:layout_toEndOf="@+id/home_floating_menu_main"-->
+<!--        android:src="@drawable/ic_user"-->
+<!--        android:visibility="invisible"-->
+<!--        app:civ_border_color="@color/cmr_green"-->
+<!--        app:civ_border_width="5dp"/>-->
+
+
+</RelativeLayout>

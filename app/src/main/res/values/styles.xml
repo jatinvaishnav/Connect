@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextInputLayoutAppearance" parent="Widget.Design.TextInputLayout">
+        <item name="colorControlActivated">@color/cmr_green</item>
+    </style>
+
+    <style name="ExposedDropDownMenuActive" parent="Widget.AppCompat.AutoCompleteTextView">
+        <item name="endIconTint">@color/cmr_green</item>
+        <item name="colorControlActivated">@color/cmr_green</item>
+    </style>
+
+    <style name="ExposedDropDownMenuDef" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="endIconTint">@android:color/darker_gray</item>
+        <item name="colorControlActivated">@color/cmr_green</item>
+        <item name="boxStrokeColor">#CACACA</item>
+    </style>
+
+    <style name="HomeTheme" parent="@style/Theme.MaterialComponents.Light.Bridge">
+        <item name="actionBarSize">100dp</item>
+    </style>
+    
+</resources>

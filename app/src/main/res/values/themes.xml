@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/cmr_green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/cmr_dark_green</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/cmr_green</item>
+        <!-- Customize your theme here. -->
+        <item name="android:autofilledHighlight">@drawable/login_input_fields_auto</item>
+    </style>
+</resources>

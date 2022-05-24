@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CMRU Connect</string>
+    <string name="app_version">v1.0</string>
+
+    <string-array name="schools">
+        <item>Engineering and Technology</item>
+        <item>Architecture</item>
+        <item>Business Management</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

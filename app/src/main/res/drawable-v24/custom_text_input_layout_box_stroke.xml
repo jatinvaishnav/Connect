@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:color="#CACACA" android:state_enabled="true" android:state_focused="false">
+        <shape android:shape="rectangle">
+            <stroke android:color="#CACACA" android:width="2dp"/>
+        </shape>
+    </item>
+    <item android:color="@color/cmr_green" android:state_enabled="true" android:state_focused="true">
+        <shape android:shape="rectangle">
+            <stroke android:color="@color/cmr_green" android:width="2dp"/>
+        </shape>
+    </item>
+
+</selector>

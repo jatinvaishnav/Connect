@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splash">
+
+        <ImageView
+            android:id="@+id/sunset"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/back_sunset" />
+
+        <ImageView
+            android:id="@+id/splash_logo"
+            android:layout_width="177dp"
+            android:layout_height="177dp"
+            android:layout_centerInParent="true"
+            android:contentDescription="logo_splash"
+            app:srcCompat="@drawable/logo" />
+
+        <LinearLayout
+            android:id="@+id/lineralayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/splash_logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            >
+                <TextView
+                    android:id="@+id/splash_appname_txt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins"
+                    android:letterSpacing=".388"
+                    android:text="CMRU CO"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/splash_appname_txt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins"
+                    android:letterSpacing=".388"
+                    android:text="NN"
+                    android:textColor="@color/teal_700"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/splash_appname_txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins"
+                    android:letterSpacing=".388"
+                    android:text="ECT"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/app_version"
+            android:textColor="#888888"
+            android:textSize="14sp"
+            tools:ignore="UnknownId" />
+
+
+
+
+
+</RelativeLayout>
